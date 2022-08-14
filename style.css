@@ -1,0 +1,57 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* selectors*/
+/* .heading{
+    color: blue;
+} */
+h1,h2,h3{
+    color: black;
+}
+
+/* selector specificity */
+/* 
+type 0-0-1
+class: 0-1-0
+id : 1-0-0
+ */
+ /* pixel(px) em rem */
+ span>.text{ /*0-1-1*/
+    color: green;
+ }
+ h3 > #thridHeading{ /**/
+    font-size: 20px;
+ }
+h6{
+    font-size: 80px;
+}
+ /* id,class */
+ .span-box{
+    border: 2px solid red;
+    display: block;
+ }
+ .span-box2{
+    border: 2px solid yellow;
+    display:block;
+ }
+ .span-box>span:nth-child(2){
+    color: green;
+ }
+
+ .span-box>span:nth-child(3){
+    color: blue;
+ }
+span{
+    color: brown;
+    font-size: 30px;
+    border: 2px solid black;
+    display: block;
+}
+/* displays */
+/* block */
+/* inline-block */
+/* flex */
+/* grid */
